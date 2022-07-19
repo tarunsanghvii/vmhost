@@ -1,0 +1,29 @@
+{
+  "name": "vmhost",
+  "version": "1.0.0",
+  "description": "try to securly host ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarunsanghvii/vmhost.git"
+  },
+  "keywords": [
+    "hosting",
+    "on",
+    "nginx",
+    "with",
+    "https"
+  ],
+  "author": "tarun sanghvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarunsanghvii/vmhost/issues"
+  },
+  "homepage": "https://github.com/tarunsanghvii/vmhost#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
