@@ -4,8 +4,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Biller Dashboard',
-    default: 'Biller Dashboard',
+    template: '%s | Dealer Dashboard',
+    default: 'Dealer Dashboard',
   },
   description: 'The official Next.js Course Dashboard, built with App Router.',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
