@@ -61,6 +61,7 @@ export async function createInvoice(prevState: State, formData: FormData) {
         console.error(error)
     }
 
+    revalidatePath('/dashboard');
     revalidatePath('/dashboard/invoices');
     redirect('/dashboard/invoices');
 }
@@ -93,12 +94,14 @@ export async function updateInvoice(id: string, prevState: State, formData: Form
     } catch (error) {
         console.error("error occured", error);
     }
+    revalidatePath('/dashboard');
     revalidatePath('/dashboard/invoices');
     redirect('/dashboard/invoices');
 }
 
 export async function deleteInvoice(id: string) {
-    await sql`DELETE from invoices where id = ${id}`;
+    await sql`DELETE from invo');
+    revalidatePath('/dashboardices where id = ${id}`;
     revalidatePath('/dashboard/invoices');
 }
 
